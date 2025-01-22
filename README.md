@@ -1,17 +1,13 @@
-### What is this?
-Scan Steam marketplace and find items that have large price fluctuations.
-Find items that are undervalued.
-Profit?
+A tool designed to scrape the Steam Market and analyze item data to reveal profit opportunities when purchasing and reselling.
 
-Example:
+**Example:**
 Lets say there is a `Glock-18` that for the last 5 days has had a highest price of 2 EUR and lowest price of 1 EUR. Now steam markup is 15% of item price. That means there is 0,85 cents to be made. 
 
 
-### Getting started
+## Getting started
 It is really straight forward. Just run `npm install` to get dependencies and `node index.js` to start the app on `localhost:80`.
 
-
-### Response
+## API
 Example response.
 ```
 [{
@@ -35,9 +31,8 @@ Example response.
 ```
 
 
-### TO-DO
- * Implement a config file.
+## TODO
+- [ ] Implement a config file.
 
-
-### Issues
+## Issues
 Found a bug or better solution? Please report to the issue section.
